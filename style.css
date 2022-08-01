@@ -156,6 +156,12 @@ p a:hover{
         width: 100%;
         height: auto;
     }
+
+    .area-texto h1{
+        font-size: 6vw;
+        
+    
+    }
     
     .imagem{
         width: 50vw;
