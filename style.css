@@ -167,3 +167,23 @@ p a:hover{
         width: 50vw;
     }
 }
+
+
+@media(max-width: 500px){
+    .area-login{
+        height: 50%;
+        
+    }
+    .area-texto{
+        height: 40%;
+    }
+
+    .area-texto h1{
+        font-size: 4.8vw;
+        
+    
+    }
+    .imagem{
+        width: 45vw;
+    }
+}
