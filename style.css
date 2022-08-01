@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body{
+    margin: 0;
+    background: url(imagens/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-blend-mode: darken;
+    font-family: 'Roboto Slab', serif;
+    overflow: hidden;
+    line-height: 1.3;
+}
+
+
+
+.main-login{
+    
+     width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-texto{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.area-texto h1 {
+    font-size: 3vw;
+    color: #fdf9f9;
+
+}
+
+.imagem{
+    width: 27vw;
+    
+}
+
+
+.area-login{
+    width: 50vw;
+    display: flex;
+    height: 100vh;  
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a1b24;
+    width: 355px;
+    height: 320px;
+    padding: 2%;
+    border-radius: 7px;
+    box-shadow: 0px 1px 7px  rgba(255, 255, 255, 0.507);
+    /*border: solid 2px rgba(255, 255, 255, 0.623);*/
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login input{
+    margin-top: 10px;
+    background: #252A34;
+    color: #cbd0f7;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    box-shadow: 0px 3px 7px rgba(5, 5, 5, 0.425); 
+}
+
+.login img{
+    width: 65px;
+    height: auto;
+}
+
+input::placeholder{
+    color: #cbd0f7;
+    font-size: 14px;
+
+}
+
+form [type="submit"]{
+    font-size: 20px;
+    color: black;
+    display: block;
+    background: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form [type="submit"]:hover{
+    font-size: 20px;
+    color: white;   
+    background: black;
+    transition: .4s;
+    
+    
+    
+    text-transform: uppercase;
+    
+}
+
+p{
+    color: #cbd0f7;
+}
+
+p a{
+    color: rgb(245, 240, 240);
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+p a:hover{
+    color: #030303;
+    transition: .15s;
+}
+
+@media(max-width: 950px){
+    .login{
+        width: 85%;
+    }
+}
+
+
+@media(max-width: 600px){
+    .main-login{
+        flex-direction: column;
+    }
+
+    .area-login{
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    .area-texto{
+        width: 100%;
+        height: auto;
+    }
+    
+    .imagem{
+        width: 50vw;
+    }
+}
