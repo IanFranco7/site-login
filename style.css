@@ -169,14 +169,17 @@ p a:hover{
 }
 
 
-@media(max-width: 500px){
+@media(max-width: 400px){
+
+    .area-texto{
+        height: 40vh;
+    }
+
     .area-login{
-        height: 50%;
+        height: 50vh;
         
     }
-    .area-texto{
-        height: 40%;
-    }
+    
 
     .area-texto h1{
         font-size: 4.8vw;
