@@ -177,7 +177,7 @@ p a:hover{
 
     .area-login{
         height: 50vh;
-        
+        box-sizing: border-box;
     }
     
 
