@@ -172,7 +172,7 @@ p a:hover{
 @media(max-width: 400px){
 
     .area-texto{
-        height: 40vh;
+        height: 45vh;
     }
 
     .area-login{
@@ -187,6 +187,6 @@ p a:hover{
     
     }
     .imagem{
-        width: 45vw;
+        width: 90%;
     }
 }
