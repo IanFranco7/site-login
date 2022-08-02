@@ -181,6 +181,7 @@ p a:hover{
     }
 
     .login{
+        height: auto;
         box-sizing: border-box;
     }
     
