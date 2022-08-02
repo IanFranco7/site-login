@@ -187,7 +187,8 @@ p a:hover{
     
 
     .area-texto h1{       
-        font-size: 4.8vw;      
+        font-size: 4.8vw;  
+        color: blue;    
     }
 
     .imagem{
