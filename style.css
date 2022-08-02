@@ -184,10 +184,15 @@ p a:hover{
     .login{
         height: auto;
         box-sizing: border-box;
+        padding: 4% 2%;
     }
 
     .login input{
         height: 35px;
+    }
+
+    .login p {
+        display: none;
     }
     
 
@@ -198,4 +203,5 @@ p a:hover{
     .imagem{
         width: 40%;
     }
+
 }
