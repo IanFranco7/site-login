@@ -172,11 +172,11 @@ p a:hover{
 @media(max-width: 400px){
 
     .area-texto{
-        width: 40vh;
+        height: 40vh;
     }
 
     .area-login{
-        width: 50vh;
+        height: 50vh;
         
     }
 
@@ -185,13 +185,11 @@ p a:hover{
     }
     
 
-    .area-texto h1{
-        color: yellow;
-        font-size: 4.8vw;
-        
-    
+    .area-texto h1{       
+        font-size: 4.8vw;      
     }
+
     .imagem{
-        width: 70%;
+        width: 50%;
     }
 }
