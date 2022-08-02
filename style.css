@@ -173,6 +173,7 @@ p a:hover{
 
     .area-texto{
         height: 40vh;
+        margin-bottom: 1.3vh;
     }
 
     .area-login{
@@ -184,14 +185,17 @@ p a:hover{
         height: auto;
         box-sizing: border-box;
     }
+
+    .login input{
+        height: 35px;
+    }
     
 
     .area-texto h1{       
-        font-size: 4.8vw;  
-        color: blue;    
+        font-size: 4.5vw;      
     }
 
     .imagem{
-        width: 50%;
+        width: 40%;
     }
 }
