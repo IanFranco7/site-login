@@ -172,11 +172,15 @@ p a:hover{
 @media(max-width: 400px){
 
     .area-texto{
-        height: 45vh;
+        width: 40vh;
     }
 
     .area-login{
-        height: 50vh;
+        width: 50vh;
+        
+    }
+
+    .login{
         box-sizing: border-box;
     }
     
@@ -188,6 +192,6 @@ p a:hover{
     
     }
     .imagem{
-        width: 90%;
+        width: 70%;
     }
 }
