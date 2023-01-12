@@ -5,7 +5,7 @@
 
 Link para acessar: https://ianfranco7.github.io/site-login/
 
-Fiz um site de login do meu time de coração, ele é totalmente responsivo e utilizei bastante flexbox e media queries.
+Fiz um site de login do Botafogo que é o meu time de coração, ele é totalmente responsivo e utilizei bastante flexbox e media queries.
 
 ## Layout Desktop
 ![](https://raw.githubusercontent.com/IanFranco7/site-login/main/assets/desktop.png)
